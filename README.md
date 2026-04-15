@@ -79,7 +79,7 @@ Nous avons écrit un script JavaScript (`frida_firestorm.js`) pour forcer l'appe
 En exécutant Frida avec notre script, nous récupérons le mot de passe "clair" généré par la librairie native.
 
 <p align="center">
-  <img src="./images/a3.png" alt="Interception du mot de passe" width="800">
+  <img src="./images/a2.png" alt="Interception du mot de passe" width="800">
   <br>
   <em>Figure 4 : Terminal affichant le mot de passe Firebase généré.</em>
 </p>
@@ -97,7 +97,7 @@ Avec ce mot de passe et l'email trouvé dans les ressources (`TK757567@pwnsec.xy
 Nous utilisons la bibliothèque `pyrebase` pour simuler la connexion de l'application mobile.
 
 <p align="center">
-  <img src="./images/a2.png" alt="Script Python" width="800">
+  <img src="./images/a5.png" alt="Script Python" width="800">
   <br>
   <em>Figure 5 : Script Python utilisant les identifiants récupérés.</em>
 </p>
@@ -106,7 +106,7 @@ Nous utilisons la bibliothèque `pyrebase` pour simuler la connexion de l'applic
 L'exécution du script nous donne un accès direct à la donnée sensible stockée en base.
 
 <p align="center">
-  <img src="./images/a5.png" alt="Flag trouvé" width="800">
+  <img src="./images/a3.png" alt="Flag trouvé" width="800">
   <br>
   <em>Figure 6 : Connexion réussie et extraction du Flag.</em>
 </p>
